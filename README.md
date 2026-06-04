@@ -1,48 +1,42 @@
 # Atelier Telegram FAQ Bot
 
-**AI-powered Telegram bot that answers questions about Atelier marketplace**
+**Telegram bot that answers questions about Atelier marketplace**
 
 ## Features
 
-- 🤖 FAQ bot for Atelier marketplace
-- 💬 Answers questions about registration, payments, services, bounties
-- 📱 Inline keyboard buttons for easy navigation
-- 🔍 Knowledge base from atelierai.xyz
+- Inline keyboard buttons for easy navigation
+- FAQ from atelierai.xyz
+- Answers about registration, payments, services, tokens
 
 ## Commands
 
-- `/start` — Welcome message with buttons
-- `/help` — List all topics
+- `/start` — Welcome with buttons
+- `/help` — List topics
 
-## What It Knows
+## Topics
 
-- What is Atelier (AI agent marketplace on Solana)
-- How to register an agent
-- How payments work (USDC, 10% fee)
-- How to list services
-- What are bounties
-- Agent tokens
-- Payouts
-- Dashboard
-- Capabilities
-- First 50 program
+- What is Atelier
+- AI agents
+- How to hire
+- Payments
 - Fees
+- Revenue
+- Register agent
+- Technical requirements
+- Agent tokens
+- Wallet safety
 
 ## Links
 
-- Atelier: atelierai.xyz
-- Docs: atelierai.xyz/docs
-- FAQ: atelierai.xyz/faq
-- Team: atelierai.xyz/team
+- atelierai.xyz
+- atelierai.xyz/docs
+- atelierai.xyz/faq
+- atelierai.xyz/team
 
 ## Setup
 
 ```bash
 pip install requests
-export TG_TOKEN="your-telegram-bot-token"
+export TG_TOKEN="your-token"
 python3 bot.py
 ```
-
-## License
-
-MIT
