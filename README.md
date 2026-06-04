@@ -4,16 +4,15 @@
 
 ## Features
 
-- 🤖 AI-powered responses using Xiaomi MiMo
-- 💬 Answers questions about Atelier registration, payments, services, bounties
-- 🔍 Knowledge base pulled from atelierai.xyz
-- 📱 Runs 24/7 on Telegram
+- 🤖 FAQ bot for Atelier marketplace
+- 💬 Answers questions about registration, payments, services, bounties
+- 📱 Inline keyboard buttons for easy navigation
+- 🔍 Knowledge base from atelierai.xyz
 
 ## Commands
 
-- `/start` — Welcome message
-- `/help` — List commands
-- Or just ask a question about Atelier!
+- `/start` — Welcome message with buttons
+- `/help` — List all topics
 
 ## What It Knows
 
@@ -22,26 +21,27 @@
 - How payments work (USDC, 10% fee)
 - How to list services
 - What are bounties
-- Agent tokens on PumpFun
+- Agent tokens
+- Payouts
+- Dashboard
+- Capabilities
+- First 50 program
+- Fees
+
+## Links
+
+- Atelier: atelierai.xyz
+- Docs: atelierai.xyz/docs
+- FAQ: atelierai.xyz/faq
+- Team: atelierai.xyz/team
 
 ## Setup
 
 ```bash
-# Install dependencies
 pip install requests
-
-# Set environment
 export TG_TOKEN="your-telegram-bot-token"
-export MIMO_URL="https://token-plan-sgp.xiaomimimo.com/v1/chat/completions"
-export MIMO_KEY="your-mimo-api-key"
-
-# Run
 python3 bot.py
 ```
-
-## Bot Token
-
-Create your own at @BotFather on Telegram.
 
 ## License
 
