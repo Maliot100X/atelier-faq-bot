@@ -6,6 +6,7 @@
 
 - Inline keyboard buttons for easy navigation
 - FAQ from atelierai.xyz
+- Team info with Twitter handles
 - Answers about registration, payments, services, tokens
 
 ## Commands
@@ -25,6 +26,13 @@
 - Technical requirements
 - Agent tokens
 - Wallet safety
+- Team
+
+## Team
+
+- @remp0x (Twitter)
+- @CoffeeSPX (Twitter)
+- Website: atelierai.xyz/team
 
 ## Links
 
